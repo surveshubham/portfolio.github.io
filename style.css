@@ -8,14 +8,15 @@ p{
 }
 
 .navbar-light .navbar-brand {
-    color: rgba(0,0,0,.9);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 31px;
     font-family: 'Anton', sans-serif;
 }
 
+
 h1 {
  font-size: 60px;
-  background: -webkit-linear-gradient(#000000,#5e5d5f );
+ background: -webkit-linear-gradient(#ffffff,#6e6e6e );
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent; 
 }
@@ -29,11 +30,7 @@ html {
 
 .bg-light {
     font-family: 'Fredoka One', cursive;
-    background: linear-gradient(to right, #9966ff 1%, #cc99ff 99%);
-}
-
-.containers{
-    background: linear-gradient(to bottom, #9966ff 0%, #ff99cc 100%);
+    background: linear-gradient(to right, #000000 1%, #353535 99%);
 }
 
 .sec{
@@ -41,7 +38,11 @@ html {
     height: 93vh;
     display:flex;
     position:relative;
-    background: linear-gradient(to bottom right, #9966ff 0%, #ffccff 100%);
+    /* background: linear-gradient(to bottom right, #fc0000 0%, #ffccff 100%); */
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
 }    
 .secc1{
    width: 50%;
@@ -53,7 +54,7 @@ html {
     margin-top: 32%;
     margin-left: 10%;
     font-family: 'Fredoka One', cursive;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
  img {
     margin-left: 0px;
@@ -72,7 +73,7 @@ html {
     height: 92.50vh; 
 }
 .typing{
-    color: rgb(255, 255, 255); 
+    color: rgb(255, 0, 0); 
 }
 
 .about{
@@ -80,8 +81,11 @@ html {
     height: 100vh;
     display:flex;
     position:relative;
-    background: linear-gradient(to left, #66ffff 0%, #0099ff 100%);
+    background-image: url("2bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: 'Fredoka One', cursive;
+    color: white;
 }
 
 .absec1{
@@ -107,9 +111,14 @@ img.ima {
 .skills{
     max-width: 100%;
     height: 90vh;
-    margin-top: 3%;
+    margin-top: 0%;
     TEXT-align: center;
     font-family: 'Fredoka One', cursive;
+    background-image: url("3bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+    color: white;
 }
 
 .bar {
@@ -123,18 +132,65 @@ progress {
 }
 
 button {
-    BACKGROUND-COLOR: #9e6bff;
-    background: linear-gradient(to right, #9966ff 1%, #cc99ff 99%);
+    background: linear-gradient(to right, #000000 1%, #333333 99%);
     BORDER: NONE;
     PADDING: 6PX;
     transition: 0.2S ease-in-out;
+    color: white;
 }
 
 button:hover {
     cursor: pointer;
     BACKGROUND-COLOR: #9e6bff;
-    background: linear-gradient(to right, #9966ff 1%, #cc99ff 99%);
+    background: linear-gradient(to right, #000000 1%, #9c9c9c 99%);
     BORDER: NONE;
     PADDING: 8PX;
     border-right: 0.5PX SOLID GREEN;
+}
+
+.projects{
+    padding: 33px;
+    height: auto;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.pbox{
+    padding:30px; 
+    transition:0.2s ease-in-out;
+    height: 373px; 
+}
+.pbox:hover{
+    padding: 20px;
+}
+img.pimg {
+    height: 373px;  
+}
+
+img.pimg:hover {
+    height: 373px;  
+    box-shadow: 0 10px 10px -5px; 
+}
+
+.hee{
+    text-align: center;
+    text-transform: capitalize; 
+}
+p.hee {
+    FONT-SIZE: 55PX;
+    BACKGROUND-COLOR: BLACK;
+    COLOR: WHITE;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.pcontainer{
+    background-image: url("4bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgb(253 47 47 / 90%);
 }
