@@ -47,12 +47,9 @@
     display:flex;
     flex-direction: column;
     position:relative;
-    background: linear-gradient(to left, #66ffff 0%, #0099ff 100%);
+    background: linear-gradient(to left, #000000 0%, #151515 100%);
     font-family: 'Fredoka One', cursive;
-    background-image: url("2bg.jpg");
-   
-    background-size: 100%;
-    background-position:center ;
+    
  }
 
  .absec1{
@@ -67,35 +64,52 @@
     margin-top: 0%;
 }
    
+span#typing {
+  color: #ffbebe;
+  animation: Text 5s ease-in infinite;
+}
+
+@keyframes Text{
+  from{color: rgb(255, 11, 11);}
+  to{color:rgb(212, 255, 22)}
+}
+
 .skills{
   max-width: 100%;
-  height: 90vh;
+  height: 70%;
   margin-top: 0%;
   TEXT-align: center;
   font-family: 'Fredoka One', cursive;
-  background-image: url("3bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   font-family: 'Fredoka One', cursive;
   margin-bottom: 3px;
   color: white;
 }
 
-.projects{
+.projects {
   padding: 2px;
   height: auto;
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
+  margin-bottom: 35px;
 }
+
+
 
 .pbox{
   padding:10px; 
   transition:0.2s ease-in-out;
   height: 373px; 
   margin-top: 33px;
-  
+}
+
+
+
+p.hee {
+  FONT-SIZE: 40PX;
+  BACKGROUND-COLOR: BLACK;
+  COLOR: WHITE;
+  font-family: 'Bebas Neue', cursive;
 }
 
 img.pimg {
@@ -113,6 +127,14 @@ button {
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
   color: rgb(253 47 47 / 90%);
+}
+
+.footer {
+  margin-top: -12px;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(to right, #000000 1%, #3a3a3a 99%);
 }
 
 }
