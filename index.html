@@ -12,6 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="res.css">
   <title>portfolio shubhamsurve #1</title>
 </head>
@@ -35,7 +37,7 @@
           <button onclick="scrollWin3()" >SKILLS</button>
         </li>
         <li class="nav-item">
-          <button onclick="scrollWin()" >button </button>
+          <button onclick="scrollWin4()" >PROJECTS</button>
         </li>  
       </ul>
     </div>
@@ -48,13 +50,17 @@
         <div class="secb">
           <h3>Hello,My Name is</h3>
           <h1>Shubham Surve</h1>
-          <h4>And i'm a <span class="typing">WEB DEVLEOPER</span></h4>
+          <h4>And i'm a <span id="typing">web developer</span></h4>
+          <p>Contact me - 7678013943</p>
+          <p>Gmail - <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">shubhamsurve704@gmail.com</a></p>
+          <p>Github - <a href="https://github.com/surveshubham" target="_blank">surveshubham</a></p>
         </div>
+        
       </div>
 
       <div class="secc2">
         <div class="secb2">
-          <img src="img.jpg" alt="error"></img>
+          <img src="images/bg33.jpeg" alt="error"></img>
         </div>
       </div>
     </div>
@@ -64,15 +70,17 @@
   <div class="about">
     <div class="absec1">
       <div class="boxx1">
-        <img class="ima" src="2img.jpg" alt="">
+        <img class="ima" src="images\bg33.jpeg" alt="">
       </div>
     </div>
     <div class="absec2">
       <div class="boxx2">
         <h4>ABOUT ME</h4>
-        <P>AS EVERY One KNOWS ABOUT ME, I AM LEGENDARY INSAN DISPLAYED LEFT SIDE OF SCREEN, I AM NOT IN MY OG FROM SO
-          PLS DONT JUDEG ME ,BY THE WAY MY NAME IS SHUBHAM SANJAY SURVE AND AM THE NEW ULTRA INSTING WHO DEFEAT GOKU IN
-          ONE CHUTKI</P>
+        <P class="abp">I am <span id="typing2">web developer</span> from navi-mumbai,Seeking for my first internship,I enjoy making websites 
+          from different technologies and want to learn more about this field,I enjoy taking complex webs and try to change them in simple and beautifull ui,
+          i also love the logic and structure of coding and always thinking about how to solve one, It satisfies me a lot when i solve or get o/p which i have expected.
+          Therefore i never stop and keep learning more about this technologies.
+        </P>
       </div>
     </div>
   </div>
@@ -102,38 +110,75 @@
     
   </div>
 
-<P class="hee">PROJECTS</P>
+
 <div class="pcontainer">
+  <div class="projects2">
+    <P class="hee">JAVASCRIPT PROJECTS</P>
+  </div>
+
   <div class="projects">
-    <div class="pbox"><a href="https://google.com/"><img class="pimg" src="2img.jpg"></img></a></div>
-    <div class="pbox"><a href="https://google.com/"><img class="pimg" src="2img.jpg"></img></a></div>
-    <div class="pbox"><a href="https://google.com/"><img class="pimg" src="2img.jpg"></img></a></div>
+    <div class="pbox"><a href="https://surveshubham.github.io/1proj.github.io/" target="_blank"><img class="pimg" src="images/clock.png"></img></a>
+      <div class="2DIV"><p class="pname">CLOCK USING JAVASCRIPT</p></div></div>
+    <div class="pbox"><a href="https://github.com/surveshubham/news.github.io" target="_blank"><img class="pimg" src="images/news.png"></img></a>
+      <div class="2DIV"><p class="pname"> NEWS WEBAPP </p></div></div>
+    <div class="pbox"><a href="https://surveshubham.github.io/speakingnotes/" target="_blank"><img class="pimg" src="images/notes.png"></img></a>
+      <div class="2DIV"><p class="pname">SPEAKING NOTESAPP</p></div></div>
+</div>
+
+<div class="projects2">
+  <P class="hee">QNA PROJECT PHP</P>
 </div>
 <div class="projects">
-  <div class="pbox"><a href="https://google.com/"><img class="pimg" src="2img.jpg"></img></a></div>
-  <div class="pbox"><a href="https://google.com/"><img class="pimg" src="2img.jpg"></img></a></div>
-  <div class="pbox"><a href="https://google.com/"><img class="pimg" src="2img.jpg"></img></a></div>
+  <div class="pbox"><a href="https://github.com/surveshubham/QNA.ghithub.io" target="_blank"><img class="pimg" src="images/QNAM.png"></img></a>
+    <div class="2DIV"><p class="pname">MAIN PAGE</p></div></div>
+  <div class="pbox"><a href="https://github.com/surveshubham/QNA.ghithub.io" target="_blank"><img class="pimg" src="images/QNA2.png"></img></a>
+    <div class="2DIV"><p class="pname"> LOGIN TO ASK QUESTION </p></div></div>
+  <div class="pbox"><a href="https://github.com/surveshubham/QNA.ghithub.io" target="_blank"><img class="pimg" src="images/QNA3.png"></img></a>
+    <div class="2DIV"><p class="pname">ANSWER TO OTHERS QUESTION</p></div></div>
 </div>
+
+<div class="projects2">
+  <P class="hee">PHP CRUD AND FORM</P>
+</div>
+<div class="projects">
+  <div class="pbox"><a href="https://github.com/surveshubham/crud.github.io" target="_blank"><img class="pimg" src="images/CRUD.png"></img></a>
+    <div class="2DIV"><p class="pname">INSERTING</p></div></div>
+    <div class="pbox"><a href="https://github.com/surveshubham/crud.github.io" target="_blank"><img class="pimg" src="images/CRUD2.png"></img></a>
+      <div class="2DIV"><p class="pname">DELETING</p></div></div>
+    <div class="pbox"><a href=""><img class="pimg" src="images/FORM.png" target="_blank"></img></a>
+      <div class="2DIV"><p class="pname">LOGIN</p></div></div>
+</div>
+
+<div class="projects3">
+    <ul class="lists">
+      <li><h2>some small projects</h2></li>
+      <li>javscript ballgame</li>
+      <li>mcq made using php</li>
+      <li>reactjs google clone</li>
+      <li>reactjs weather app</li>
+      <li>dictionary using javascript api</li>
+      <li>notes app using reactjs</li>
+      <li>and many more .....</li>
+    </ul>
+</div>
+
 </div>
 
 
+<div class="footer">
+  <div class="con">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f custom">shubham surve</i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram custom">z1shubham1z</i></a>
+    <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin custom"></i></a>
+  </div>
+  <div class="con2">
+    <P>made by shubhamsurve</P>
+    <p>terms of use ,  privacy policy</p>
+    <P>@ 2021 portfolio shubham surve</P>
+  </div>
 
-  <!-- jquery and javascripts links -->
-  <script src="index.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-
-</body>
-
-</html>
+</div>
 
 
   <!-- jquery and javascripts links -->
