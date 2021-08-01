@@ -137,4 +137,26 @@ button {
   background: linear-gradient(to right, #000000 1%, #3a3a3a 99%);
 }
 
+.secc1 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.h3, h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+}
+
+img.ima {
+  padding: 22px;
+  height: 467px;
+  border-radius: 141px;
+  margin-top: 31px;
+}
+
+p.abp {
+  font-size: 16px;
+  color: #ffffff;
+  z-index: 1;
+}
 }
