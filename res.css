@@ -162,4 +162,7 @@
   height: 160px;
   box-shadow: 0 10px 10px -5px;
  }
+    p {
+  font-size: 14px;
+}
 }
