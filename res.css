@@ -165,4 +165,7 @@
     p {
   font-size: 14px;
 }
+    .navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
 }
