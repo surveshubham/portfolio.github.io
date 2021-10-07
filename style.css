@@ -7,6 +7,8 @@ p{
     margin-bottom: 0rem;   
 }
 
+
+
 .navbar-light .navbar-brand {
     color: rgba(255, 255, 255, 0.9);
     font-size: 31px;
@@ -280,7 +282,7 @@ span#typing {
 #typing2{
     color: cyan;
 }
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: rgb(255 255 255 / 90%);
 }
 
